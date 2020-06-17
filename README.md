@@ -1,9 +1,11 @@
 # FaceMaskDetector
 
 ## Description
+
 Implemented a python script to detect whether a person is wearing face mask or not using OpenCV and Keras/TensorFlow.
 
 ## Directory layout
+
 ```go
  FaceMaskDetector
     +--- dataset
@@ -26,9 +28,45 @@ Implemented a python script to detect whether a person is wearing face mask or n
     +--- webcam_test.py // tests if webcam working or not
 ```
 
+## Required Libraries
+
+- Tensorflow
+- opencv-python
+- argparse
+- imutils
+
+## Steps to run
+
+For detection from image file:
+
+```bash
+$ python image_script.py -i example/example_07.png
+```
+
+For detection from webcam feed:
+
+```bash
+$ python video_script.py
+```
+
+For detection from video file:
+
+```bash
+$ python video_script_file.py
+```
+
+For detection from video file but increased speed:
+
+```bash
+$ python video_speed.py
+```
 
 ## Screenshots
+
 ### Example 1
+
 ![picture alt](screenshots/output_image_1.png)
+
 ### Example 2
+
 ![picture alt](screenshots/output_image_2.png)
