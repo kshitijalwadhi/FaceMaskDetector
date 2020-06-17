@@ -29,6 +29,6 @@ Implemented a python script to detect whether a person is wearing face mask or n
 
 ## Screenshots
 ### Example 1
-![picture alt](.\screenshots/output_image_1.png)
+![picture alt](screenshots/output_image_1.png)
 ### Example 2
-![picture alt](.\screenshots/output_image_2.png)
+![picture alt](screenshots/output_image_2.png)
